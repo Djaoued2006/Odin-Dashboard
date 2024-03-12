@@ -184,7 +184,6 @@
             display: grid;
             grid-template-columns: 3fr 1fr;
             background-color: #e2e8f0;
-            height: 100%;
             width: 100%;
 
             h2 {
