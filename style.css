@@ -82,6 +82,7 @@
                 img {
                     width: 30px;
                     height: 30px;
+                    cursor: pointer;
                 }
 
                 input {
@@ -198,7 +199,6 @@
                 .projects {
                     display: grid;
                     width: 100%;
-                    height: 100%;
 
                     grid-template-columns: repeat(2, 1fr);
                     grid-auto-columns: repeat(2, 1fr);
