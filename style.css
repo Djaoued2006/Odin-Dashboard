@@ -12,6 +12,7 @@
 .page {
     display: grid;
     grid-template-columns: 1fr 4fr;
+    overflow: hidden;
 
     .links {
         background-color: var(--main-color);
