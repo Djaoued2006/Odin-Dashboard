@@ -16,7 +16,7 @@
 
     .links {
         background-color: var(--main-color);
-        width: 100%;
+        /* width: 100%; */
         color: white;
         display: flex;
         flex-direction: column;
@@ -41,14 +41,14 @@
     .link {
         display: grid;
         grid-template-columns: 1fr 2fr;
-        gap: 10px;
+        gap: 20px;
         margin-top: 10px;
-        width: 100%;
+        /* width: 100%; */
 
         .image {
             position: relative;
-            width: 100%;
-            height: 100%;
+            /* width: 100%; */
+            /* height: 100%; */
 
             img {
                 width: 30px;
@@ -62,6 +62,10 @@
             font-size: 20px;
             cursor: pointer;
         }
+    }
+
+    .settings {
+        margin-top: 50px;
     }
 
     .board {
@@ -134,9 +138,9 @@
             justify-content: space-between;
             align-items: center;
             gap: 20px;
-            width: 100%;
+            /* width: 100%; */
             padding: 0px 20px;
-            margin-top: 10px;
+            margin: 5px 0px 10px 0px;
 
             img {
                 width: 60px;
@@ -184,7 +188,7 @@
             display: grid;
             grid-template-columns: 3fr 1fr;
             background-color: #e2e8f0;
-            width: 100%;
+            /* width: 100%; */
 
             h2 {
                 font-size: 25px;
@@ -197,7 +201,7 @@
 
                 .projects {
                     display: grid;
-                    width: 100%;
+                    /* width: 100%; */
 
                     grid-template-columns: repeat(2, 1fr);
                     grid-auto-columns: repeat(2, 1fr);
@@ -254,21 +258,25 @@
                 .announcement-card {
                     margin: 0px 10px 0px 0px;
 
-                    .little-card {
-                        background-color: #fff;
+                    .cards {
+                        background-color: white;
+                        padding: 10px;
                         border-radius: 10px;
-                        padding: 15px;
-                        margin-bottom: 25px;
 
-                        h2 {
-                            font-size: 20px;
-                            font-weight: bold;
-                        }
+                        .little-card {
+                            padding: 15px;
+                            /* margin-bottom: 25px; */
 
-                        p {
-                            overflow: hidden;
-                            text-overflow: ellipsis;
-                            font-size: 15px;
+                            h2 {
+                                font-size: 20px;
+                                font-weight: bold;
+                            }
+
+                            p {
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                font-size: 15px;
+                            }
                         }
                     }
                 }
@@ -313,7 +321,7 @@
     }
 }
 
-hr {
+.hr {
     background-color: #d0d5dd;
     height: 5px;
 }
